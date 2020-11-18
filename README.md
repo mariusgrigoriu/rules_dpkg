@@ -1,4 +1,10 @@
-# Examples
+# rules_dpkg: Bazel rules to download and extract deb packages
+
+rules_dpkg is a fork of the `deb_packages` directory from [rules_pkg](https://github.com/bazelbuild/rules_pkg).
+It was split from the original project to make it easier to depend on these rules and to allow for continued evolution.
+Read more on the [backstory](https://github.com/bazelbuild/rules_pkg/issues/48).
+
+## Examples
 
 ### **Downloading minimal python library packages from a snapshot of `debian jessie`**.
 
